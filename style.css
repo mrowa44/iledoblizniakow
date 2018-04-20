@@ -21,6 +21,8 @@ body {
   justify-content: center;
   flex-direction: column;
   font-size: 3em;
+  pointer-events: none;
+  user-select: none;
 }
 
 .timer {
