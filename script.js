@@ -3,7 +3,8 @@ function placeTimer() {
   const now = moment();
   const dur = moment.duration(date.diff(now));
 
-  const days = Math.floor(dur.asDays());
+  // subtract one as current day is shown in hours
+  const days = Math.floor(dur.asDays()) - 1;
   const hours = dur.hours();
   const minutes = dur.minutes();
   const seconds = dur.seconds();
