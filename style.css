@@ -23,6 +23,7 @@ body {
   font-size: 3em;
   pointer-events: none;
   user-select: none;
+  color: white;
 }
 
 .timer {
