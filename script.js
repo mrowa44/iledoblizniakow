@@ -1,5 +1,5 @@
 function placeTimer() {
-  const date = moment('2018-11-04T23:00');
+  const date = moment('2018-10-17T23:00');
   const now = moment();
   const dur = moment.duration(date.diff(now));
 
